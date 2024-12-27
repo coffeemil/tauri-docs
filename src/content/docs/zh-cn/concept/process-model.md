@@ -2,6 +2,7 @@
 title: 过程模型
 sidebar:
   order: 0
+  i18nReady: true
 ---
 
 Tauri采用了类似于Electron或许多现代网页浏览器的多进程架构。本指南探讨了这种设计选择背后的原因以及它为何对编写安全应用程序至关重要。
