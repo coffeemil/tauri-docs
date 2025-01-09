@@ -74,7 +74,7 @@ Core -> "事件与命令 3"{style.animated: true}
 [最小权限原则]: https://zh.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E6%9D%83%E9%99%90%E5%8E%9F%E5%88%99
 [进程间通信]: /zh-cn/concept/inter-process-communication/
 [所有权]: https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html
-[微软边缘WebView2]: https://docs.microsoft.com/en-us/microsoft-edge/webview2/
+[Microsoft Edge WebView2]: https://docs.microsoft.com/en-us/microsoft-edge/webview2/
 [WKWebView]: https://developer.apple.com/documentation/webkit/wkwebview
 [webkitgtk]: https://webkitgtk.org
 [Svelte]: https://svelte.dev/
