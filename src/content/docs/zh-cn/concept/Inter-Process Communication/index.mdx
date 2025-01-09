@@ -58,7 +58,7 @@ Core -> Frontend: "Event"{style.animated: true}
 
 Tauri 还提供了一种类似于[外部函数接口]的抽象，建立在IPC消息之上[^1]。主要 API `invoke` 类似于浏览器的`fetch` API，允许前端调用 Rust 函数、传递参数并接收数据。
 
-由于该机制在底层使用类似[JSON-RPC]的协议来序列化请求和响应，因此所有参数和返回数据必须能够序列化为JSON。
+由于该机制在底层使用类似 [JSON-RPC] 的协议来序列化请求和响应，因此所有参数和返回数据必须能够序列化为 JSON。
 
 <figure>
 
