@@ -60,7 +60,7 @@ Core -> "事件与命令 3"{style.animated: true}
 
 ## WebView 进程
 
-核心进程并不直接渲染实际的用户界面（UI）；它启动 WebView 进程，这些进程利用操作系统提供的 WebView库。WebView 是一个类似浏览器的环境，可以执行你的 HTML、CSS 和 JavaScript。
+核心进程并不直接渲染实际的用户界面（UI）；它启动 WebView 进程，这些进程利用操作系统提供的 WebView 库。WebView 是一个类似浏览器的环境，可以执行你的 HTML、CSS 和 JavaScript。
 
 这意味着你在传统网页开发中使用的大多数技术和工具都可以用来创建 Tauri 应用程序。例如，许多 Tauri 示例是使用 [Svelte] 前端框架和 [Vite] 打包工具编写的。
 
