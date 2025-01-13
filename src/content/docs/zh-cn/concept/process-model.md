@@ -1,5 +1,5 @@
 ---
-title: 过程模型
+title: 进程模型
 sidebar:
   order: 0
   i18nReady: true
