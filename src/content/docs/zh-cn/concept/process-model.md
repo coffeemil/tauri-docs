@@ -58,7 +58,7 @@ Core -> "事件与命令 3"{style.animated: true}
 <figcaption>Tauri 过程模型的简化表示。一个核心进程管理一个或多个 WebView 进程。</figcaption>
 </figure>
 
-## WebView进程
+## WebView 进程
 
 核心进程并不直接渲染实际的用户界面（UI）；它启动 WebView 进程，这些进程利用操作系统提供的 WebView库。WebView 是一个类似浏览器的环境，可以执行你的 HTML、CSS 和 JavaScript。
 
