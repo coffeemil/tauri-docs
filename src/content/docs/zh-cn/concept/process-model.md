@@ -55,7 +55,7 @@ Core -> "事件与命令 3"{style.animated: true}
 "事件与命令 3" -> WebView3{style.animated: true}
 ```
 
-<figcaption>Tauri 过程模型的简化表示。一个核心进程管理一个或多个 WebView 进程。</figcaption>
+<figcaption>Tauri 进程模型的简化表示。一个核心进程管理一个或多个 WebView 进程。</figcaption>
 </figure>
 
 ## WebView 进程
