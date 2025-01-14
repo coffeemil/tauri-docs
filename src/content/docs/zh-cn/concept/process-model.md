@@ -68,8 +68,7 @@ Core -> "事件与命令 3"{style.animated: true}
 
 与其他类似解决方案不同，WebView 库**不**包含在你的最终可执行文件中，而是在运行时动态链接[^1]。这使你的应用程序*显著*更小，但也意味着你需要考虑平台差异，就像传统网页开发一样。
 
-[^1]:
-    目前，Tauri 在 Windows 上使用 [Microsoft Edge WebView2]，在 macOS 上使用 [WKWebView]，在 Linux 上使用 [webkitgtk]。
+[^1]: 目前，Tauri 在 Windows 上使用 [Microsoft Edge WebView2]，在 macOS 上使用 [WKWebView]，在 Linux 上使用 [webkitgtk]。
 
 [最小权限原则]: https://zh.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E6%9D%83%E9%99%90%E5%8E%9F%E5%88%99
 [进程间通信]: /zh-cn/concept/inter-process-communication/
